@@ -41,8 +41,9 @@ nav {
 }
 
 .navGroup{
-    margin-top: 100px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:20px;
 }
 
 h1{
@@ -57,3 +58,29 @@ h1{
     justify-content:flex-start;
     align-items: center;
 }
+
+#userTabs, #setTabs{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+.navHeading{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    fill: #ffffff;
+    height: 30px;
+    width:calc(15vw - 10px);
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.navHeading>svg{
+    width:25px;
+    height: auto;
+}
+
