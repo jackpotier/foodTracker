@@ -74,13 +74,14 @@ h1{
     fill: #ffffff;
     height: 30px;
     width:calc(15vw - 10px);
-    margin-top:5px;
-    margin-bottom: 5px;
+    margin-top:7px;
+    margin-bottom: 7px;
     font-size: 18px;
 }
 
 .navHeading>svg{
     width:25px;
     height: auto;
+    margin-right:15px;
 }
 
