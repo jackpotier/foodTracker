@@ -113,11 +113,11 @@ header {
 #searchTab {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: calc(40vw - 10px);
     height: 40px;
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 70px;
 }
 
 #searchTab>svg {
@@ -127,7 +127,7 @@ header {
 }
 
 #searchBar {
-    width: calc(30vw - 10px);
+    width: calc(30vw + 30px);
     border-radius: 12px;
     border-style:none;
     height: 26px;
@@ -136,7 +136,7 @@ header {
 #icons {
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    width: 200px;
     align-items: center;
 }
 #icons>svg{
@@ -167,6 +167,9 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-left: 10px;
 }
 
 #profile>img {
